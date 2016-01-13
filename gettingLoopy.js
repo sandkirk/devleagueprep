@@ -1,3 +1,4 @@
+//Assessing values in an array
 //Declare a variable named presidents which contains the first 5 presidents' last names: Washington, Adams, Jefferson, Madison, Monroe.
 //Now write a FOR loop which iterates through this Array.
 //Within the FOR loop, use console.log to:
@@ -7,8 +8,8 @@
 
 var presidents = ["Washington", "Adams", "Jefferson", "Madison", "Monroe"] {
 	for (var i = 0; i < presidents.length; i++;){
-	console.log("Value of i is: " + i); //same as console.log(", i") 
-	console.log("Value at Index is: " + presidents[i];
+	console.log("Value of i is: "" + i); //same as console.log(", i") 
+	console.log("Value at Index is: " + presidents[i]);
 	}
 }
 
